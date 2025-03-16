@@ -3,7 +3,6 @@ from ultralytics import YOLO
 # Load the YOLO model
 model = YOLO("yolov8n.pt")
 
-# Update the model's class names
 data_set = {
     "0": "Die Person",
     "1": "Das Fahrrad",
